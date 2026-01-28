@@ -13,7 +13,6 @@ app = Flask(__name__)
 # ("/") represents the home page of the application
 # When a user accesses the home page, the index function is called
 #The index function renders the "index.html" template
-#
 @app.route("/")
 def index():
     return render_template("index.html")
