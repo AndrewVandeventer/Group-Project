@@ -8,3 +8,27 @@ button {
     padding: 8px 12px;
     margin-right: 5px;
 }
+
+.container {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    max-width: 600px;
+}
+
+.buttons button {
+    background: #1e90ff;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 8px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.buttons button:hover {
+    background: #0b5ed7;
+}
